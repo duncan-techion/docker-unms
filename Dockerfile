@@ -1,7 +1,7 @@
 FROM --platform=linux/amd64 ubnt/unms:2.4.156 as unms
 FROM --platform=linux/amd64 ubnt/unms-nginx:2.4.156 as unms-nginx
 FROM --platform=linux/amd64 ubnt/unms-netflow:2.4.156 as unms-netflow
-FROM --platform=linux/amd64 ubnt/unms-crm:4.4.21 as unms-crm
+FROM --platform=linux/amd64 ubnt/unms-crm:4.4.28 as unms-crm
 FROM --platform=linux/amd64 ubnt/unms-siridb:2.4.156 as unms-siridb
 FROM --platform=linux/amd64 ubnt/unms-postgres:2.4.156 as unms-postgres
 FROM rabbitmq:3.7.28-alpine as rabbitmq
